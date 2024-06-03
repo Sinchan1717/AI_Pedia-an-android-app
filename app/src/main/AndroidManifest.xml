@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AIPedia"
+        tools:targetApi="31">
+        <activity
+            android:name=".code4"
+            android:exported="false" />
+        <activity
+            android:name=".CardViewItem"
+            android:exported="false" />
+        <activity
+            android:name=".card37"
+            android:exported="false" />
+        <activity
+            android:name=".card36"
+            android:exported="false" />
+        <activity
+            android:name=".card35"
+            android:exported="false" />
+        <activity
+            android:name=".card34"
+            android:exported="false" />
+        <activity
+            android:name=".card33"
+            android:exported="false" />
+        <activity
+            android:name=".card32"
+            android:exported="false" />
+        <activity
+            android:name=".card31"
+            android:exported="false" />
+        <activity
+            android:name=".card30"
+            android:exported="false" />
+        <activity
+            android:name=".card29"
+            android:exported="false" />
+        <activity
+            android:name=".card28"
+            android:exported="false" />
+        <activity
+            android:name=".card27"
+            android:exported="false" />
+        <activity
+            android:name=".card26"
+            android:exported="false" />
+        <activity
+            android:name=".card25"
+            android:exported="false" />
+        <activity
+            android:name=".card24"
+            android:exported="false" />
+        <activity
+            android:name=".card23"
+            android:exported="false" />
+        <activity
+            android:name=".card22"
+            android:exported="false" />
+        <activity
+            android:name=".card21"
+            android:exported="false" />
+        <activity
+            android:name=".card20"
+            android:exported="false" />
+        <activity
+            android:name=".card19"
+            android:exported="false" />
+        <activity
+            android:name=".card18"
+            android:exported="false" />
+        <activity
+            android:name=".card17"
+            android:exported="false" />
+        <activity
+            android:name=".card16"
+            android:exported="false" />
+        <activity
+            android:name=".card15"
+            android:exported="false" />
+        <activity
+            android:name=".card14"
+            android:exported="false" />
+        <activity
+            android:name=".card12"
+            android:exported="false" />
+        <activity
+            android:name=".card11"
+            android:exported="false" />
+        <activity
+            android:name=".card10"
+            android:exported="false" />
+        <activity
+            android:name=".card9"
+            android:exported="false" />
+        <activity
+            android:name=".card8"
+            android:exported="false" />
+        <activity
+            android:name=".card7"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".card6"
+            android:exported="false" />
+        <activity
+            android:name=".card5"
+            android:exported="false" />
+        <activity
+            android:name=".card4"
+            android:exported="false" />
+        <activity
+            android:name=".card3"
+            android:exported="false" />
+        <activity
+            android:name=".card2"
+            android:exported="false" />
+        <activity
+            android:name=".card13"
+            android:exported="false" />
+        <activity
+            android:name=".card1"
+            android:exported="false" />
+        <activity
+            android:name=".business"
+            android:exported="false" />
+        <activity
+            android:name=".design"
+            android:exported="false" />
+        <activity
+            android:name=".video"
+            android:exported="false" />
+        <activity
+            android:name=".image"
+            android:exported="false" />
+        <activity
+            android:name=".text"
+            android:exported="false" />
+        <activity
+            android:name=".category2"
+            android:exported="false" />
+        <activity
+            android:name=".audio"
+            android:exported="false" />
+        <activity
+            android:name=".category"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".signin"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

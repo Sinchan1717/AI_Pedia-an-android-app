@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".card7">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="384dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="#0A40B9"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024">
+
+        <ImageView
+            android:id="@+id/image13"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="#FFFFFF"
+            app:srcCompat="@drawable/nightcafe1" />
+
+        <TextView
+            android:id="@+id/text13"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            android:paddingTop="120dp"
+            android:text="NightCafe Studio"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="346dp"
+        android:layout_height="329dp"
+        android:text="NightCafe Creator is an AI-powered art generator app that enables users to create stunning artworks effortlessly. Key features and advantages include:  Multiple AI art generation methods: Neural style transfer, text-to-image AI, and style mixing for unique creations Free access: Generate, tweak, and download up to 28 artworks per day for free, available online and on Android and iOS Power user tools: Bulk creation, bulk download, duplication, evolution, and upscaling for advanced users Community interaction: Share, browse, like, and comment on creations within the supportive NightCafe community Print options: Print AI-enhanced creations on high-quality, durable matte paper for a museum-quality finish"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card1"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="359dp"
+        android:layout_height="176dp"
+        android:text="Artists looking to experiment with AI-generated art styles and techniques Designers seeking inspiration and unique visuals for their projects Art lovers interested in exploring and engaging with a community of AI art creators"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card1"
+        app:layout_constraintVertical_bias="0.807" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="207dp"
+        android:layout_height="64dp"
+        android:onClick="myWeb"
+        android:text="VISIT"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#0A40B8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="199dp"
+        android:layout_height="33dp"
+        android:text="NightCafe Studio Features"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="169dp"
+        android:layout_height="33dp"
+        android:text="Use Cases:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.68" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
