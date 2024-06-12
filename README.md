@@ -37,22 +37,24 @@ To run AIPEDIA locally, follow these steps:
 
 3. Configure Firebase Authentication:
 
-* Create a new Firebase project on the Firebase Console.
-* Follow the instructions to add your Android app to the Firebase project.
-* Download the `google-services.json` file and place it in the `app` directory of your Android project.
+   * Create a new Firebase project on the Firebase Console.
+   * Follow the instructions to add your Android app to the Firebase project.
+   * Download the `google-services.json` file and place it in the `app` directory of your Android project.
   
 4. Build and run the project on an Android device or emulator.
 
 ## Usage
+
 To use AIPEDIA:
 
-Launch the app on your Android device.
-1. Sign up for a new account or log in if you already have an account.
-2. Explore the curated collection of AI tools, categorized for easy navigation.
-3. Select a tool to view its detailed description and usage instructions.
-4. Enjoy exploring and utilizing the AI resources available in AIPEDIA.
+1. Launch the app on your Android device.
+2. Sign up for a new account or log in if you already have an account.
+3. Explore the curated collection of AI tools, categorized for easy navigation.
+4. Select a tool to view its detailed description and usage instructions.
+5. Enjoy exploring and utilizing the AI resources available in AIPEDIA.
 
 ## Contributing
+
 Contributions to AIPEDIA are welcome! To contribute:
 
 1. Fork the repository.
@@ -60,8 +62,10 @@ Contributions to AIPEDIA are welcome! To contribute:
 3. Make your changes and commit them.
 4. Push your changes to your fork.
 5. Submit a pull request to the main repository.
+
 Please ensure your code adheres to our coding standards and includes relevant tests and documentation.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
